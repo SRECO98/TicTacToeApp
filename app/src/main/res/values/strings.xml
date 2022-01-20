@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="tekst1">Welcome to Tic Tac Toe!</string>
+    <string name="playgame">Play game</string>
+    <string name="about">About</string>
+    <string name="quit">Quit</string>
+    <string name="single">Singleplayer</string>
+    <string name="multi">Multiplayer</string>
+    <string name="pravila">Pravila:</string>
+    <string name="opis">Iks-oks, znano i kao križić-kružić je igra za dva igrača koja se igra na papiru na polju 3x3 kvadrata.
+        Igrači naizmenično postavljaju svoje znakove (jedan koristi ikseve, drugi kružiće) u slobodna polja.
+        Cilj igre je spojiti tri znaka vodoravno, uspravno ili dijagonalno. <br/> Da bi ste igrali protiv racunara,
+        nakon svog poteza kliknite bilo koje polje i racunar ce odigrati na jedno od praznih polja :)</string>
+    <string name="mail">Mail: banovicbl22@gmail.com</string>
+    <string name="icon">icon</string>
+    <string name="tic_tac_toe">Tic Tac Toe</string>
+</resources>

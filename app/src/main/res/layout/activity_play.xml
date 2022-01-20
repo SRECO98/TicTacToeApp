@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090909"
+    android:orientation="vertical"
+    tools:context=".Play">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_gravity="fill_horizontal|center_vertical"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#656464"
+        android:gravity="center|center_vertical"
+        android:text="@string/single"
+        android:textColor="#F4EDED"
+        android:textSize="30sp"
+        android:onClick="singleOnClick"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_gravity="fill_horizontal|center_vertical"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#656464"
+        android:gravity="center|center_vertical"
+        android:padding="20dp"
+        android:text="@string/multi"
+        android:textColor="#F4EDED"
+        android:textSize="30sp"
+        android:onClick="multiOnClick"/>
+</LinearLayout>

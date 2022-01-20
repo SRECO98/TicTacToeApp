@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C0C0C"
+    android:orientation="vertical"
+    tools:context=".About">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0"
+        android:padding="15dp"
+        android:text="@string/pravila"
+        android:textColor="#F8F3F3"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="#070707"
+        android:padding="15dp"
+        android:paddingTop="40dp"
+        android:text="@string/opis"
+        android:textColor="#F8F6F6"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0"
+        android:padding="15dp"
+        android:text="@string/mail"
+        android:textColor="#F3F1F1"
+        android:textSize="24sp" />
+</LinearLayout>

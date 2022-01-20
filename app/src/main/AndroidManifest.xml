@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.iksoks">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ass3"
+        android:roundIcon="@drawable/ass3"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IksOks">
+        <activity
+            android:name=".Multi"
+            android:parentActivityName=".Play"></activity>
+        <activity
+            android:name=".Single"
+            android:parentActivityName=".Play"/>
+        <activity
+            android:name=".Quit"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".About"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Play"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
